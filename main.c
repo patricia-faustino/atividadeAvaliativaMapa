@@ -14,12 +14,12 @@ struct projeto{
 void MenuInicial(int *opcao){
 	int opcaoAuxiliar;
 	printf("\nOPÇÕES PROJETO\n");
-	printf("1-CADASTRAR PROJETO\n");
-	printf("2-TODOS OS PROJETOS\n");
-	printf("3-PROJETOS COM STATUS: A FAZER\n");
-	printf("4-PROJETOS COM STATUS: FAZENDO\n");
-	printf("5-PROJETOS COM STATUS: CONCLUÍDO\n");
-	printf("ESCOLHA UMA OPÇÃO");
+	printf("1 - CADASTRAR PROJETO\n");
+	printf("2 -TODOS OS PROJETOS\n");
+	printf("3 -PROJETOS COM STATUS: A FAZER\n");
+	printf("4 - PROJETOS COM STATUS: FAZENDO\n");
+	printf("5 - PROJETOS COM STATUS: CONCLUÍDO\n");
+	printf("ESCOLHA UMA OPÇÃO: ");
 	scanf("%d", &opcaoAuxiliar);
 	printf("\n");
 	
